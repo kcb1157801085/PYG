@@ -1,0 +1,342 @@
+
+/* main   start */
+
+.main {
+    width: 980px;
+    height: 455px;
+    margin-top: 10px;
+    margin-left: 219px;
+}
+
+.focus {
+    position: relative;
+    width: 720px;
+    height: 455px;
+
+    
+}
+
+.newsflash {
+    width: 250px;
+    height: 455px;
+}
+
+
+.arrow-l,
+.arrow-r {
+    position: absolute;
+    top:50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    background: rgba(0, 0, 0, .3);
+    color:#fff;
+    font-family: "icomoon";
+}
+
+.arrow-l {
+    left: 0;
+}
+
+.arrow-r {
+    right:0;
+}
+
+.circle {
+    position: absolute;
+    bottom: 15px;
+    left: 50px;
+}
+
+.circle li{
+   float: left;
+   width: 8px;
+   height: 8px;
+   border:1px solid #fff;
+   margin: 0 3px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+.current {
+
+   background-color: #fff;
+
+}
+.circle li:hover {
+ 
+  background-color: #fff;
+}
+
+
+
+.news {
+    height: 163px;
+    border: 1px solid #ccc;
+   
+}
+
+.news_hd {
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 14px;
+    padding:0 15px;
+}
+
+.news_hd a{
+    font-family: "icomoon";
+    font-size: 12px;
+}
+
+.news_bd{
+   padding: 10px  0px 0px 15px;
+   font-size: 13px;
+}
+.news_bd li{
+    height: 25px;
+}
+
+.news_bd span {
+    color:black;
+}
+.news_icon {
+    font-size: 14px;
+}
+
+.lifeservice {
+    height: 208px;
+    border:1px solid #ccc;
+    border-top: none;
+    overflow: hidden;
+}
+.lifeservice ul {
+    width: 252px;
+}
+.lifeservice li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+    border-right:  1px solid #ccc;  
+}
+
+.lifeservice li a {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+}
+.lifeservice li p {
+    text-align: center;
+}
+.lifeservice_ico {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 10px auto;
+    background: url(../img/icons.png) no-repeat;
+}
+
+.lifeservice_ico_huafei{
+    background-position: -17px -16px;
+}
+
+.hot {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 12px;
+    height: 15px;
+    background: url("../img/jian.jpg") no-repeat;
+
+}
+
+.bargain {
+    height: 75px;
+    margin-top: 5px;
+}
+
+
+
+
+/* main   end */
+
+
+/* recommend  start */
+
+.recommend {
+    height: 163px;
+    margin-top: 10px;
+    background-color: aqua;
+}
+
+.recom_hd {
+    height: 163px;
+    width: 200px;
+    text-align: center;
+    background-color: #5c5251;
+}
+
+.recom_hd img {
+    margin:30px 0   15px 0;
+}
+
+.recom_hd h3 {
+   font-size: 18px;
+   font-weight: normal;
+    color:#fff;
+}
+
+.recom_bd {
+    height: 163px;
+    width: 1000px;
+    background-color: #ebebeb;
+   
+}
+
+.recom_bd li {
+    float: left;
+    width: 249px;
+    height: 145px;
+    margin-top: 10px;
+    border-right: 1px solid #ccc;
+}
+
+.recom_bd li img {
+    width: 100%;
+}
+.recom_bd .list {
+    border-right: none;
+}
+
+
+/* recommend  end */
+
+/* 家电模块  start */
+
+
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color:#c81623;
+
+}
+
+.tab-list li {
+    float: left;
+    
+}
+.tab-list li a {
+    padding: 0 15px;
+
+}
+
+.box_bd {
+    height: 360px;
+}
+
+.box_bd li{
+  overflow: hidden;
+}
+
+
+.w209 {
+    width: 209px;
+    background-color: #f9f9f9;
+}
+
+.w329 {
+    width: 329px;
+}
+
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+       
+.tab-con li {
+    float: left;
+    height: 360px;
+}
+
+.tab-con-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.tab-con-list {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.tab-con-list li {
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+/* 家电模块   end */
+
+
+/* 电梯导航模块 start  */
+
+
+.fixedtool {
+    position: fixed;
+    left: 50%;
+    top:100px;
+    margin-left: -676px;
+    width: 66px;
+    background-color: #fff;
+}
+
+.fixedtool li {
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+  
+}
+
+.current {
+    background-color: #c81623;
+    color:#fff;
+}
+.box_bd img {
+   transition: all 0.5s;
+}
+
+.box_bd img:hover {
+    margin-left: 8px;
+}
+
+
+/* 电梯导航模块 end  */
+
+
+
